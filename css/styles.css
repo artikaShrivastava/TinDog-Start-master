@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 5% 12%;
+}
+
+/* Headings */
+
+.title-heading {
+  font-family: "Montserrat-bold", sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+/* Sections */
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+  color: #4d4d4d;
+}
+
+/* Title section */
+
+.download-button {
+  margin: 3% 2% 3% 0;
+}
+
+.title-box {
+  padding: 3% 14% 7%;
+}
+
+.dog {
+  transform: rotate(30deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+#title {
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .dog {
+    transform: none;
+    width: 60%;
+    position: static;
+  }
+  #title{
+      text-align: center;
+  }
+  
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Features */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.feature-items {
+  width: 30%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 18px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials, #press {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2.7rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 20%;
+}
+
+/* Press section */
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 12%;
+  padding: 0 3%;
+}
+
+/* Pricing Section */
+
+#pricing, .pricing-box {
+  padding: 50px 100px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.price-heading, .price-text, .dog-name {
+  font-size: 2.7rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.dog-name {
+  font-size: 1.5rem;
+}
+
+.dog-img{
+  width: 100%;
+  height: 15rem;
+}
+
+/* Footer */
+
+.footericons {
+  padding: 10px;
+  color: #4d4d4d;
+}
